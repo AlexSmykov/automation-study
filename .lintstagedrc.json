@@ -1,3 +1,4 @@
 {
-  "*": "prettier --check --ignore-unknown"
+  "*": "prettier --check --ignore-unknown",
+  "*.ts": "eslint"
 }

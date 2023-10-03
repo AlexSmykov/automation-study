@@ -29,7 +29,13 @@ git clone https://github.com/DiabloZX/automation-study.git
 cd automation-study
 ```
 
-проверить версию установленной NodeJS (`node -v`), нужную версию можно посмотреть в файле `.nvmrc`,
+проверить версию установленной NodeJS (`node -v`), можно в файле `.nvmrc`
+
+установить необходимые зависимости
+
+```shell
+nvm install
+```
 
 ```shell
 npm ci
